@@ -244,6 +244,12 @@
             <Array as="points" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="Vs2UNfE0v49kENudF6t8-67" value="客户端" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="743.5" y="689" width="108" height="49" as="geometry" />
+        </mxCell>
+        <mxCell id="Vs2UNfE0v49kENudF6t8-68" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="Vs2UNfE0v49kENudF6t8-13" target="Vs2UNfE0v49kENudF6t8-67">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
