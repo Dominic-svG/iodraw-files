@@ -38,7 +38,7 @@
           <mxGeometry x="340" y="460" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="Vs2UNfE0v49kENudF6t8-8" value="附件领取完整流程" style="whiteSpace=wrap;strokeWidth=2;verticalAlign=top;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="160" y="550" width="4884" height="1269" as="geometry" />
+          <mxGeometry x="50" y="550" width="4884" height="1269" as="geometry" />
         </mxCell>
         <mxCell id="Vs2UNfE0v49kENudF6t8-9" value="后置处理层" style="whiteSpace=wrap;strokeWidth=2;verticalAlign=top;" vertex="1" parent="Vs2UNfE0v49kENudF6t8-8">
           <mxGeometry x="43" y="848" width="584" height="189" as="geometry" />
