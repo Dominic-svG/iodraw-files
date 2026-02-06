@@ -1,6 +1,6 @@
 <mxfile host="www.iodraw.com" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36" version="24.7.17">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
-    <mxGraphModel dx="988" dy="523" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2963" dy="1569" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
@@ -57,6 +57,9 @@
         <mxCell id="Vs2UNfE0v49kENudF6t8-24" value="③ ConvertMailAttachmentsForReward" style="rounded=1;arcSize=20;strokeWidth=2" parent="Vs2UNfE0v49kENudF6t8-19" vertex="1">
           <mxGeometry x="548" y="473.5" width="229" height="84" as="geometry" />
         </mxCell>
+        <mxCell id="uoSntCYrXsxc5Q1asQRO-2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="Vs2UNfE0v49kENudF6t8-19" source="Vs2UNfE0v49kENudF6t8-25" target="Vs2UNfE0v49kENudF6t8-26">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="Vs2UNfE0v49kENudF6t8-25" value="JSON解析附件列表" style="rounded=1;arcSize=20;strokeWidth=2" parent="Vs2UNfE0v49kENudF6t8-19" vertex="1">
           <mxGeometry x="582" y="366" width="162" height="49" as="geometry" />
         </mxCell>
@@ -79,19 +82,19 @@
           <mxGeometry x="1273" y="272" width="222" height="66" as="geometry" />
         </mxCell>
         <mxCell id="Vs2UNfE0v49kENudF6t8-32" value="返回: 零件列表+套装列表+邮件IDs" style="rounded=1;arcSize=20;strokeWidth=2" parent="Vs2UNfE0v49kENudF6t8-19" vertex="1">
-          <mxGeometry x="2347" y="414" width="228" height="66" as="geometry" />
+          <mxGeometry x="883" y="449" width="228" height="66" as="geometry" />
         </mxCell>
         <mxCell id="Vs2UNfE0v49kENudF6t8-33" value="④ 调用Inventory服务&#xa;SaveMailAttachment(零件列表)" style="rounded=1;arcSize=20;strokeWidth=2" parent="Vs2UNfE0v49kENudF6t8-19" vertex="1">
-          <mxGeometry x="2675" y="406" width="230" height="84" as="geometry" />
+          <mxGeometry x="1211" y="441" width="230" height="84" as="geometry" />
         </mxCell>
         <mxCell id="Vs2UNfE0v49kENudF6t8-34" value="成功?" style="rhombus;strokeWidth=2;whiteSpace=wrap;" parent="Vs2UNfE0v49kENudF6t8-19" vertex="1">
-          <mxGeometry x="3005" y="404" width="87" height="87" as="geometry" />
+          <mxGeometry x="1541" y="439" width="87" height="87" as="geometry" />
         </mxCell>
         <mxCell id="Vs2UNfE0v49kENudF6t8-35" value="继续流程" style="rounded=1;arcSize=20;strokeWidth=2" parent="Vs2UNfE0v49kENudF6t8-19" vertex="1">
-          <mxGeometry x="3242" y="272" width="94" height="49" as="geometry" />
+          <mxGeometry x="1778" y="307" width="94" height="49" as="geometry" />
         </mxCell>
         <mxCell id="Vs2UNfE0v49kENudF6t8-36" value="触发回滚机制&#xa;ReceivedRollBack&#xa;(恢复邮件状态)" style="rounded=1;arcSize=20;strokeWidth=2" parent="Vs2UNfE0v49kENudF6t8-19" vertex="1">
-          <mxGeometry x="3211" y="464" width="155" height="84" as="geometry" />
+          <mxGeometry x="1747" y="499" width="155" height="84" as="geometry" />
         </mxCell>
         <mxCell id="Vs2UNfE0v49kENudF6t8-37" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.67;exitY=0;entryX=0;entryY=0.5;rounded=0;" parent="Vs2UNfE0v49kENudF6t8-19" source="Vs2UNfE0v49kENudF6t8-20" target="Vs2UNfE0v49kENudF6t8-21" edge="1">
           <mxGeometry relative="1" as="geometry">
@@ -172,14 +175,14 @@
         <mxCell id="Vs2UNfE0v49kENudF6t8-52" value="是" style="curved=1;startArrow=none;endArrow=block;exitX=0.84;exitY=0;entryX=0;entryY=0.49;rounded=0;" parent="Vs2UNfE0v49kENudF6t8-19" source="Vs2UNfE0v49kENudF6t8-34" target="Vs2UNfE0v49kENudF6t8-35" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="3151" y="296" />
+              <mxPoint x="1687" y="331" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="Vs2UNfE0v49kENudF6t8-53" value="否" style="curved=1;startArrow=none;endArrow=block;exitX=0.99;exitY=0.78;entryX=0;entryY=0.5;rounded=0;" parent="Vs2UNfE0v49kENudF6t8-19" source="Vs2UNfE0v49kENudF6t8-34" target="Vs2UNfE0v49kENudF6t8-36" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="3151" y="506" />
+              <mxPoint x="1687" y="541" />
             </Array>
           </mxGeometry>
         </mxCell>
