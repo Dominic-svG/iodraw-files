@@ -25,7 +25,7 @@
           <mxGeometry x="693" y="46" width="108" height="49" as="geometry" />
         </mxCell>
         <mxCell id="Vs2UNfE0v49kENudF6t8-14" value="1. ReceiveAttachments Request&#xa;(message_ids列表)" style="rhombus;strokeWidth=2;whiteSpace=wrap;" vertex="1" parent="Vs2UNfE0v49kENudF6t8-8">
-          <mxGeometry x="732" y="169" width="30" height="30" as="geometry" />
+          <mxGeometry x="732" y="169" width="158" height="111" as="geometry" />
         </mxCell>
         <mxCell id="Vs2UNfE0v49kENudF6t8-15" value="HTTP Handler Layer" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="Vs2UNfE0v49kENudF6t8-8">
           <mxGeometry x="646" y="274" width="203" height="49" as="geometry" />
