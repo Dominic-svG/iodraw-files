@@ -63,6 +63,9 @@
         <mxCell id="Vs2UNfE0v49kENudF6t8-25" value="JSON解析附件列表" style="rounded=1;arcSize=20;strokeWidth=2" parent="Vs2UNfE0v49kENudF6t8-19" vertex="1">
           <mxGeometry x="582" y="366" width="162" height="49" as="geometry" />
         </mxCell>
+        <mxCell id="uoSntCYrXsxc5Q1asQRO-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="Vs2UNfE0v49kENudF6t8-19" source="Vs2UNfE0v49kENudF6t8-26" target="Vs2UNfE0v49kENudF6t8-28">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="Vs2UNfE0v49kENudF6t8-26" value="遍历附件物品" style="rounded=1;arcSize=20;strokeWidth=2" parent="Vs2UNfE0v49kENudF6t8-19" vertex="1">
           <mxGeometry x="600" y="207" width="126" height="49" as="geometry" />
         </mxCell>
@@ -70,10 +73,10 @@
           <mxGeometry x="826" y="55" width="174" height="49" as="geometry" />
         </mxCell>
         <mxCell id="Vs2UNfE0v49kENudF6t8-28" value="判断是否为套装" style="rhombus;strokeWidth=2;whiteSpace=wrap;" parent="Vs2UNfE0v49kENudF6t8-19" vertex="1">
-          <mxGeometry x="777" y="146" width="161" height="161" as="geometry" />
+          <mxGeometry x="777" y="151" width="161" height="161" as="geometry" />
         </mxCell>
         <mxCell id="Vs2UNfE0v49kENudF6t8-29" value="拆解为零件列表" style="rounded=1;arcSize=20;strokeWidth=2" parent="Vs2UNfE0v49kENudF6t8-19" vertex="1">
-          <mxGeometry x="1120" y="133" width="142" height="49" as="geometry" />
+          <mxGeometry x="1069" y="45" width="142" height="49" as="geometry" />
         </mxCell>
         <mxCell id="Vs2UNfE0v49kENudF6t8-30" value="保留原物品" style="rounded=1;arcSize=20;strokeWidth=2" parent="Vs2UNfE0v49kENudF6t8-19" vertex="1">
           <mxGeometry x="1136" y="351" width="110" height="49" as="geometry" />
