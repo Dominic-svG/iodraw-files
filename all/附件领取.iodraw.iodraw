@@ -51,11 +51,14 @@
         <mxCell id="Vs2UNfE0v49kENudF6t8-23" value="返回邮件数据" style="rounded=1;arcSize=20;strokeWidth=2" parent="Vs2UNfE0v49kENudF6t8-19" vertex="1">
           <mxGeometry x="359" y="491" width="126" height="49" as="geometry" />
         </mxCell>
+        <mxCell id="uoSntCYrXsxc5Q1asQRO-1" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="Vs2UNfE0v49kENudF6t8-19" source="Vs2UNfE0v49kENudF6t8-24" target="Vs2UNfE0v49kENudF6t8-25">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="Vs2UNfE0v49kENudF6t8-24" value="③ ConvertMailAttachmentsForReward" style="rounded=1;arcSize=20;strokeWidth=2" parent="Vs2UNfE0v49kENudF6t8-19" vertex="1">
           <mxGeometry x="548" y="473.5" width="229" height="84" as="geometry" />
         </mxCell>
         <mxCell id="Vs2UNfE0v49kENudF6t8-25" value="JSON解析附件列表" style="rounded=1;arcSize=20;strokeWidth=2" parent="Vs2UNfE0v49kENudF6t8-19" vertex="1">
-          <mxGeometry x="878" y="491.5" width="162" height="49" as="geometry" />
+          <mxGeometry x="582" y="366" width="162" height="49" as="geometry" />
         </mxCell>
         <mxCell id="Vs2UNfE0v49kENudF6t8-26" value="遍历附件物品" style="rounded=1;arcSize=20;strokeWidth=2" parent="Vs2UNfE0v49kENudF6t8-19" vertex="1">
           <mxGeometry x="600" y="207" width="126" height="49" as="geometry" />
