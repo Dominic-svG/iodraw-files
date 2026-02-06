@@ -1,6 +1,6 @@
 <mxfile host="www.iodraw.com" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36" version="24.7.17">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
-    <mxGraphModel dx="4148" dy="2196" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1659" dy="878" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
@@ -45,7 +45,7 @@
         <mxCell id="Vs2UNfE0v49kENudF6t8-20" value="② CheckAndReceived&#xa;(带Redis分布式锁)" style="rounded=1;arcSize=20;strokeWidth=2" vertex="1" parent="Vs2UNfE0v49kENudF6t8-19">
           <mxGeometry x="58" y="221" width="185" height="66" as="geometry" />
         </mxCell>
-        <mxCell id="Vs2UNfE0v49kENudF6t8-21" value="查询未领取且有附件的邮件&#xa;WHERE received=false AND attachments != &#39;[]&#39; AND attachments != &#39;&#39;" style="rounded=1;arcSize=20;strokeWidth=2" vertex="1" parent="Vs2UNfE0v49kENudF6t8-19">
+        <mxCell id="Vs2UNfE0v49kENudF6t8-21" value="查询未领取且有附件的邮件&#xa;WHERE received=false &#xa;AND attachments != &#39;[]&#39; &#xa;AND attachments != &#39;&#39;" style="rounded=1;arcSize=20;strokeWidth=2" vertex="1" parent="Vs2UNfE0v49kENudF6t8-19">
           <mxGeometry x="343" y="43" width="228" height="119" as="geometry" />
         </mxCell>
         <mxCell id="Vs2UNfE0v49kENudF6t8-22" value="更新邮件状态&#xa;received=true, seen=true, expired_at=now+72h" style="rounded=1;arcSize=20;strokeWidth=2" vertex="1" parent="Vs2UNfE0v49kENudF6t8-19">
