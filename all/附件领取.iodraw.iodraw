@@ -70,7 +70,7 @@
           <mxGeometry x="826" y="55" width="174" height="49" as="geometry" />
         </mxCell>
         <mxCell id="Vs2UNfE0v49kENudF6t8-28" value="判断是否为套装" style="rhombus;strokeWidth=2;whiteSpace=wrap;" parent="Vs2UNfE0v49kENudF6t8-19" vertex="1">
-          <mxGeometry x="833" y="228" width="161" height="161" as="geometry" />
+          <mxGeometry x="777" y="146" width="161" height="161" as="geometry" />
         </mxCell>
         <mxCell id="Vs2UNfE0v49kENudF6t8-29" value="拆解为零件列表" style="rounded=1;arcSize=20;strokeWidth=2" parent="Vs2UNfE0v49kENudF6t8-19" vertex="1">
           <mxGeometry x="1120" y="133" width="142" height="49" as="geometry" />
@@ -124,13 +124,6 @@
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="776" y="80" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="Vs2UNfE0v49kENudF6t8-44" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.78;exitY=0.99;entryX=0;entryY=0.5;rounded=0;" parent="Vs2UNfE0v49kENudF6t8-19" source="Vs2UNfE0v49kENudF6t8-26" target="Vs2UNfE0v49kENudF6t8-28" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="776" y="309" />
             </Array>
           </mxGeometry>
         </mxCell>
