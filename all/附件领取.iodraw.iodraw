@@ -79,10 +79,10 @@
           <mxGeometry x="1069" y="45" width="142" height="49" as="geometry" />
         </mxCell>
         <mxCell id="Vs2UNfE0v49kENudF6t8-30" value="保留原物品" style="rounded=1;arcSize=20;strokeWidth=2" parent="Vs2UNfE0v49kENudF6t8-19" vertex="1">
-          <mxGeometry x="1136" y="351" width="110" height="49" as="geometry" />
+          <mxGeometry x="1093" y="139" width="110" height="49" as="geometry" />
         </mxCell>
         <mxCell id="Vs2UNfE0v49kENudF6t8-31" value="保留套装信息用于客户端通知" style="rounded=1;arcSize=20;strokeWidth=2" parent="Vs2UNfE0v49kENudF6t8-19" vertex="1">
-          <mxGeometry x="1273" y="272" width="222" height="66" as="geometry" />
+          <mxGeometry x="1313" y="73" width="222" height="66" as="geometry" />
         </mxCell>
         <mxCell id="Vs2UNfE0v49kENudF6t8-32" value="返回: 零件列表+套装列表+邮件IDs" style="rounded=1;arcSize=20;strokeWidth=2" parent="Vs2UNfE0v49kENudF6t8-19" vertex="1">
           <mxGeometry x="883" y="449" width="228" height="66" as="geometry" />
@@ -141,13 +141,6 @@
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="1060" y="376" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="Vs2UNfE0v49kENudF6t8-47" value="" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.49;entryX=0.34;entryY=0.01;rounded=0;" parent="Vs2UNfE0v49kENudF6t8-19" source="Vs2UNfE0v49kENudF6t8-29" target="Vs2UNfE0v49kENudF6t8-31" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="1312" y="157" />
             </Array>
           </mxGeometry>
         </mxCell>
