@@ -45,7 +45,7 @@
         <mxCell id="Vs2UNfE0v49kENudF6t8-21" value="查询未领取且有附件的邮件&#xa;WHERE received=false &#xa;AND attachments != &#39;[]&#39; &#xa;AND attachments != &#39;&#39;" style="rounded=1;arcSize=20;strokeWidth=2" parent="Vs2UNfE0v49kENudF6t8-19" vertex="1">
           <mxGeometry x="343" y="43" width="228" height="119" as="geometry" />
         </mxCell>
-        <mxCell id="Vs2UNfE0v49kENudF6t8-22" value="更新邮件状态&#xa;received=true, seen=true, expired_at=now+72h" style="rounded=1;arcSize=20;strokeWidth=2" parent="Vs2UNfE0v49kENudF6t8-19" vertex="1">
+        <mxCell id="Vs2UNfE0v49kENudF6t8-22" value="更新邮件状态&#xa;received=true, &#xa;seen=true, &#xa;expired_at=now+72h" style="rounded=1;arcSize=20;strokeWidth=2" parent="Vs2UNfE0v49kENudF6t8-19" vertex="1">
           <mxGeometry x="348" y="212" width="218" height="84" as="geometry" />
         </mxCell>
         <mxCell id="Vs2UNfE0v49kENudF6t8-23" value="返回邮件数据" style="rounded=1;arcSize=20;strokeWidth=2" parent="Vs2UNfE0v49kENudF6t8-19" vertex="1">
