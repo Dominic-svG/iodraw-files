@@ -5,7 +5,7 @@
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="Vs2UNfE0v49kENudF6t8-8" value="附件领取完整流程" style="whiteSpace=wrap;strokeWidth=2;verticalAlign=top;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="50" y="380" width="4884" height="1269" as="geometry" />
+          <mxGeometry x="30" y="30" width="4884" height="1269" as="geometry" />
         </mxCell>
         <mxCell id="Vs2UNfE0v49kENudF6t8-9" value="后置处理层" style="whiteSpace=wrap;strokeWidth=2;verticalAlign=top;" parent="Vs2UNfE0v49kENudF6t8-8" vertex="1">
           <mxGeometry x="43" y="848" width="584" height="189" as="geometry" />
@@ -57,24 +57,6 @@
         <mxCell id="Vs2UNfE0v49kENudF6t8-25" value="JSON解析附件列表" style="rounded=1;arcSize=20;strokeWidth=2" parent="Vs2UNfE0v49kENudF6t8-19" vertex="1">
           <mxGeometry x="913" y="346.5" width="162" height="49" as="geometry" />
         </mxCell>
-        <mxCell id="Vs2UNfE0v49kENudF6t8-26" value="遍历附件物品" style="rounded=1;arcSize=20;strokeWidth=2" parent="Vs2UNfE0v49kENudF6t8-19" vertex="1">
-          <mxGeometry x="1263" y="346" width="126" height="49" as="geometry" />
-        </mxCell>
-        <mxCell id="Vs2UNfE0v49kENudF6t8-27" value="检查物品配置表存在" style="rounded=1;arcSize=20;strokeWidth=2" parent="Vs2UNfE0v49kENudF6t8-19" vertex="1">
-          <mxGeometry x="1489" y="194" width="174" height="49" as="geometry" />
-        </mxCell>
-        <mxCell id="Vs2UNfE0v49kENudF6t8-28" value="判断是否为套装" style="rhombus;strokeWidth=2;whiteSpace=wrap;" parent="Vs2UNfE0v49kENudF6t8-19" vertex="1">
-          <mxGeometry x="1496" y="367" width="161" height="161" as="geometry" />
-        </mxCell>
-        <mxCell id="Vs2UNfE0v49kENudF6t8-29" value="拆解为零件列表" style="rounded=1;arcSize=20;strokeWidth=2" parent="Vs2UNfE0v49kENudF6t8-19" vertex="1">
-          <mxGeometry x="1783" y="272" width="142" height="49" as="geometry" />
-        </mxCell>
-        <mxCell id="Vs2UNfE0v49kENudF6t8-30" value="保留原物品" style="rounded=1;arcSize=20;strokeWidth=2" parent="Vs2UNfE0v49kENudF6t8-19" vertex="1">
-          <mxGeometry x="1799" y="490" width="110" height="49" as="geometry" />
-        </mxCell>
-        <mxCell id="Vs2UNfE0v49kENudF6t8-31" value="保留套装信息用于客户端通知" style="rounded=1;arcSize=20;strokeWidth=2" parent="Vs2UNfE0v49kENudF6t8-19" vertex="1">
-          <mxGeometry x="2025" y="414" width="222" height="66" as="geometry" />
-        </mxCell>
         <mxCell id="Vs2UNfE0v49kENudF6t8-32" value="返回: 零件列表+套装列表+邮件IDs" style="rounded=1;arcSize=20;strokeWidth=2" parent="Vs2UNfE0v49kENudF6t8-19" vertex="1">
           <mxGeometry x="2347" y="414" width="228" height="66" as="geometry" />
         </mxCell>
@@ -115,58 +97,6 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="Vs2UNfE0v49kENudF6t8-41" value="" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.5;entryX=0;entryY=0.5;rounded=0;" parent="Vs2UNfE0v49kENudF6t8-19" source="Vs2UNfE0v49kENudF6t8-24" target="Vs2UNfE0v49kENudF6t8-25" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="Vs2UNfE0v49kENudF6t8-42" value="" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.5;entryX=0;entryY=0.5;rounded=0;" parent="Vs2UNfE0v49kENudF6t8-19" source="Vs2UNfE0v49kENudF6t8-25" target="Vs2UNfE0v49kENudF6t8-26" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="Vs2UNfE0v49kENudF6t8-43" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.65;exitY=0;entryX=0;entryY=0.51;rounded=0;" parent="Vs2UNfE0v49kENudF6t8-19" source="Vs2UNfE0v49kENudF6t8-26" target="Vs2UNfE0v49kENudF6t8-27" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="1439" y="219" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="Vs2UNfE0v49kENudF6t8-44" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.78;exitY=0.99;entryX=0;entryY=0.5;rounded=0;" parent="Vs2UNfE0v49kENudF6t8-19" source="Vs2UNfE0v49kENudF6t8-26" target="Vs2UNfE0v49kENudF6t8-28" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="1439" y="448" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="Vs2UNfE0v49kENudF6t8-45" value="是" style="curved=1;startArrow=none;endArrow=block;exitX=0.98;exitY=0;entryX=0;entryY=0.49;rounded=0;" parent="Vs2UNfE0v49kENudF6t8-19" source="Vs2UNfE0v49kENudF6t8-28" target="Vs2UNfE0v49kENudF6t8-29" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="1723" y="296" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="Vs2UNfE0v49kENudF6t8-46" value="否" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.73;entryX=0;entryY=0.5;rounded=0;" parent="Vs2UNfE0v49kENudF6t8-19" source="Vs2UNfE0v49kENudF6t8-28" target="Vs2UNfE0v49kENudF6t8-30" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="1723" y="515" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="Vs2UNfE0v49kENudF6t8-47" value="" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.49;entryX=0.34;entryY=0.01;rounded=0;" parent="Vs2UNfE0v49kENudF6t8-19" source="Vs2UNfE0v49kENudF6t8-29" target="Vs2UNfE0v49kENudF6t8-31" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="1975" y="296" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="Vs2UNfE0v49kENudF6t8-48" value="" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.5;entryX=0.14;entryY=1.01;rounded=0;" parent="Vs2UNfE0v49kENudF6t8-19" source="Vs2UNfE0v49kENudF6t8-30" target="Vs2UNfE0v49kENudF6t8-31" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="1975" y="515" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="Vs2UNfE0v49kENudF6t8-49" value="" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.51;entryX=0;entryY=0.51;rounded=0;" parent="Vs2UNfE0v49kENudF6t8-19" source="Vs2UNfE0v49kENudF6t8-31" target="Vs2UNfE0v49kENudF6t8-32" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points" />
           </mxGeometry>
@@ -252,6 +182,77 @@
         </mxCell>
         <mxCell id="Vs2UNfE0v49kENudF6t8-68" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="Vs2UNfE0v49kENudF6t8-8" source="Vs2UNfE0v49kENudF6t8-13" target="Vs2UNfE0v49kENudF6t8-67" edge="1">
           <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Vs2UNfE0v49kENudF6t8-26" value="遍历附件物品" style="rounded=1;arcSize=20;strokeWidth=2" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="1070" y="1392" width="126" height="49" as="geometry" />
+        </mxCell>
+        <mxCell id="Vs2UNfE0v49kENudF6t8-27" value="检查物品配置表存在" style="rounded=1;arcSize=20;strokeWidth=2" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="1296" y="1240" width="174" height="49" as="geometry" />
+        </mxCell>
+        <mxCell id="Vs2UNfE0v49kENudF6t8-28" value="判断是否为套装" style="rhombus;strokeWidth=2;whiteSpace=wrap;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="1303" y="1413" width="161" height="161" as="geometry" />
+        </mxCell>
+        <mxCell id="Vs2UNfE0v49kENudF6t8-29" value="拆解为零件列表" style="rounded=1;arcSize=20;strokeWidth=2" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="1590" y="1318" width="142" height="49" as="geometry" />
+        </mxCell>
+        <mxCell id="Vs2UNfE0v49kENudF6t8-30" value="保留原物品" style="rounded=1;arcSize=20;strokeWidth=2" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="1606" y="1536" width="110" height="49" as="geometry" />
+        </mxCell>
+        <mxCell id="Vs2UNfE0v49kENudF6t8-31" value="保留套装信息用于客户端通知" style="rounded=1;arcSize=20;strokeWidth=2" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="1832" y="1460" width="222" height="66" as="geometry" />
+        </mxCell>
+        <mxCell id="Vs2UNfE0v49kENudF6t8-43" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.65;exitY=0;entryX=0;entryY=0.51;rounded=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="Vs2UNfE0v49kENudF6t8-26" target="Vs2UNfE0v49kENudF6t8-27" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1246" y="1265" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Vs2UNfE0v49kENudF6t8-44" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.78;exitY=0.99;entryX=0;entryY=0.5;rounded=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="Vs2UNfE0v49kENudF6t8-26" target="Vs2UNfE0v49kENudF6t8-28" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1246" y="1494" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Vs2UNfE0v49kENudF6t8-45" value="是" style="curved=1;startArrow=none;endArrow=block;exitX=0.98;exitY=0;entryX=0;entryY=0.49;rounded=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="Vs2UNfE0v49kENudF6t8-28" target="Vs2UNfE0v49kENudF6t8-29" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1530" y="1342" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Vs2UNfE0v49kENudF6t8-46" value="否" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.73;entryX=0;entryY=0.5;rounded=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="Vs2UNfE0v49kENudF6t8-28" target="Vs2UNfE0v49kENudF6t8-30" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1530" y="1561" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Vs2UNfE0v49kENudF6t8-47" value="" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.49;entryX=0.34;entryY=0.01;rounded=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="Vs2UNfE0v49kENudF6t8-29" target="Vs2UNfE0v49kENudF6t8-31" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1782" y="1342" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Vs2UNfE0v49kENudF6t8-48" value="" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.5;entryX=0.14;entryY=1.01;rounded=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="Vs2UNfE0v49kENudF6t8-30" target="Vs2UNfE0v49kENudF6t8-31" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1782" y="1561" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Vs2UNfE0v49kENudF6t8-49" value="" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.51;entryX=0;entryY=0.51;rounded=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="Vs2UNfE0v49kENudF6t8-31" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+            <mxPoint x="2154" y="1493.6599999999999" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Vs2UNfE0v49kENudF6t8-42" value="" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.5;entryX=0;entryY=0.5;rounded=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="Vs2UNfE0v49kENudF6t8-25" target="Vs2UNfE0v49kENudF6t8-26" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
